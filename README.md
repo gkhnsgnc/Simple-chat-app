@@ -1,6 +1,7 @@
 # Simple-chat-app
 
-#Features
+##Features
+
 Show online users
 Typing... function
 
