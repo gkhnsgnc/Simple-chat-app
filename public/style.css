@@ -1,0 +1,135 @@
+@mixin vertical-align {
+    position: relative;
+    top: 60%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+header {
+    margin-top:30px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Comfortaa', sans-serif;
+    margin-top: 25px;
+}
+.loginArea{
+    left:35%;
+    margin-top:17%;
+    max-width:400px;
+    min-height:300px;
+    background-color: #a2b9bc;
+    border-radius: 4px;
+}
+.loginArea:hover{
+    background-color:#a2d7bc
+}
+.loginArea .btn{
+    color:#000;
+    font-weight:bold;
+    background: #ffef96;
+    border-bottom-right-radius: 15px;
+    border:0;
+}
+.loginArea .btn:hover{
+    background-color:#81DAF5;
+}
+.loginArea .form-group{
+    margin-top:20%;
+}
+.list-group-item{
+    background-color:#a2d7bc
+}
+.well{
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+}
+.well:hover{
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+
+
+section#chatroom {
+    border: 5px inset #a2b9bc;
+    height: 85%;
+    min-height: 50px;
+    overflow: auto;
+}
+
+section#input_zone {
+    top:20%;
+    height: 7%;
+    text-align: center;
+    background-color: #a2b9bc;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+input#username {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+input#message {
+    display: inline-block;
+    float:left;
+    margin:10px;
+    width: 85%;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid #a2d7bc;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2vh;
+}
+input#message:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .1);
+}
+button#send_message {
+    color:#000;
+    font-weight:bold;
+    background: #ffef96;
+    border:1px solid #a2d7bc;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin:10px;
+}
+button#send_message:hover{
+    background-color:#81DAF5;
+}
+
+p.message {
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    font-size: 2vh;
+    font-family: 'Comfortaa', sans-serif;
+    padding: 1vh;
+}
+
+.message:nth-child(even) {
+    background-color: #81DAF5;
+}
+
+.message:nth-child(odd) {
+    background-color: #81BEF7;
+}
