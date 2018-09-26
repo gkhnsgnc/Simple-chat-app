@@ -2,6 +2,6 @@
 
 ##Features
 
-Show online users
-Typing... function
+### Show online users
+### Typing... function
 
